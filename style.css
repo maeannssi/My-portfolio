@@ -983,3 +983,27 @@ section {
         height: 200px;
     }
 }
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-placeholder {
+    width: 400px;   /* make it bigger */
+    height: 400px;  /* same value = perfect circle */
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #E4BAD4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid #A7C7E7; /* slightly thicker border for balance */
+}
+
+.profile-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
